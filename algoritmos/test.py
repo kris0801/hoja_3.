@@ -54,7 +54,7 @@ print("input: " , [2, 92, 8, -4, 0])
 print("output: " , linear_search([2, 92, 8, -4, 0] , 8))
 '''
 '''
-from recursion.factorial import fact
+from recursion.factorial_of_n import fact
 
 print("***Factorial de n***")
 print("El factorial es: " , fact(6))
@@ -66,45 +66,46 @@ print("***Cuenta regresiva***")
 print(regresive(10+1))
 '''
 '''
-from recursion.fibonacci import fibonacci
+from recursion.fibonacci_n import fibonacci
 
 print("***Fibonacci***")
 print(fibonacci(10))
 '''
 '''
-from recursion.sum import sum
+from recursion.sum_of_n import sum
 
 print("***suma de los primeros n numeros***")
 print(sum(10))
 '''
 '''
-from brute_force.pin_unlock import unlock
+from force_brute.pin_unlock import unlock
 
 print("***Pin unlock***")
-print(unlock("2812"))
+print(unlock("1923"))
 '''
 '''
-from brute_force.divisoresn import divisors
+from force_brute.divisors_of_n import divisores
 
 print("***Divisores de n***")
 n = 381
-result = divisors(381)
+result = divisores(381)
 print("n: " + str(n) + " divisors: " + str(result))
 '''
 '''
-from brute_force.sum import suma
+from force_brute.sum_of_first_n import suma
 
 print("***suma de los primeros n numeros***")
 n = int(input("ingrese un numero n: "))
+print(suma)
 '''
 '''
-from lists.list_merge import combinar
+from lists.list_merger import combinar
 
 print("***List merge***")
 combinar()
 '''
 '''
-from lists.largest_number import maximo
+from lists.largest_number_in_list import maximo
 print("***largest number***")
 maximo()
 '''

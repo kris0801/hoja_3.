@@ -12,11 +12,8 @@ def unlock (pin_param):
 
                     guess= str(i)+str(j)+str(k)+str(l)
                     print (guess)
-                    sleep (0.0001)
+                    sleep (0.001)
 
                     if guess == pin: 
                         result =' El pin es: ' + guess
                         return result 
-
-
-print(unlock("1923"))

@@ -1,4 +1,4 @@
 def suma(n):
-
-    for n in range (1, n+1): 
-        suma = suma + n
+    if n==1:
+        return 1
+    return n+suma(n-1)

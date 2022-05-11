@@ -91,11 +91,11 @@ n = 381
 result = divisores(381)
 print("n: " + str(n) + " divisors: " + str(result))
 '''
-
+'''
 from force_brute.sum_of_first_n import suma
 print("***suma de los primeros n numeros***")
 print(suma(10))
-
+'''
 '''
 from lists.list_merger import combinar
 
